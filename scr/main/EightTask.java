@@ -22,3 +22,4 @@ public class EightTask {
 }
 
 //https://itvdn.com/ru/blog/article/test-java-20
+//https://github.com/enhorse/java-interview/blob/master/java8.md#какие-конечные-методы-работы-со-стримами-вы-знаете
