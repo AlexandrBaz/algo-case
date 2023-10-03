@@ -8,7 +8,7 @@ public class Fibonacci {
         long[] mem = new long[n + 1];
         Arrays.fill(mem, -1);
         System.out.println(fibNaiv(n, mem));
-        System.out.println(fibEffective(100));
+        System.out.println(fibEffective(n));
     }
 
     private static long fibNaiv(int n, long[] mem) {
@@ -24,7 +24,7 @@ public class Fibonacci {
     }
 
     private static long fibEffective(int n) {
-        long[] arr = new long[n +1 ];
+        long[] arr = new long[n + 1];
 
         arr[0] = 0;
         arr[1] = 1;
